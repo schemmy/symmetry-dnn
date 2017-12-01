@@ -19,3 +19,5 @@ syntax: glob
 *.tex.backup
 *.mat
 *.gz
+
+.ipynb_checkpoints/
