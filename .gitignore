@@ -1,0 +1,21 @@
+syntax: glob
+*~
+*.db
+*.old
+*.bak
+*.tmp
+*.aux
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+*.dvi
+*.ps
+*.toc
+*.out
+*.log
+*.blg
+*.aux
+*.bbl
+*.tex.backup
+*.mat
+*.gz
