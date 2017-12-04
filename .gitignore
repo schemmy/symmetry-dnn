@@ -20,4 +20,4 @@ syntax: glob
 *.mat
 *.gz
 
-.ipynb_checkpoints/
+.ipynb_checkpoints/*
