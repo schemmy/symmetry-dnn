@@ -42,11 +42,12 @@ label = np.transpose(np.array([[1]*n + [0]*n, [0]*n + [1]*n]))
 
 
 def weight_variable(shape, name):
-    initial = tf.truncated_normal(shape=shape, stddev=0.1)
+    # initial = tf.truncated_normal(shape=shape, stddev=0.1)
+    initial = tf.constant(0., shape=shape)
     return tf.get_variable(name=name, initializer=initial)
 
 def bias_variable(shape, name):
-    initial = tf.constant(0.1, shape=shape)
+    initial = tf.constant(0., shape=shape)
     return tf.get_variable(name=name, initializer=initial)
 
 
@@ -66,7 +67,8 @@ y_ = tf.placeholder(tf.float32, [None, 2])
 n_input = 2
 n_hidden = 3
 n_output = 2
-lmd = 1e-4
+# lmd = 1e-4
+lmd = 0#e-4
 # parameters = tf.Variable(tf.concat([tf.truncated_normal([n_input * n_hidden]), tf.zeros([n_hidden]),\
                             # tf.truncated_normal([n_hidden * n_output]), tf.zeros([n_output])],0))
 parameters = tf.Variable(tf.concat([tf.truncated_normal([n_input * n_hidden]), tf.zeros([n_hidden]),\
