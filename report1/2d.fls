@@ -136,10 +136,10 @@ INPUT ./data2.eps
 INPUT ./data2-eps-converted-to.pdf
 INPUT ./data2-eps-converted-to.pdf
 INPUT ./data2-eps-converted-to.pdf
+INPUT /usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
-INPUT /usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT CGD1.eps
 INPUT ./CGD1.eps
 INPUT ./CGD1.eps
@@ -176,6 +176,9 @@ INPUT ./ncd2.eps
 INPUT ./ncd2-eps-converted-to.pdf
 INPUT ./ncd2-eps-converted-to.pdf
 INPUT ./ncd2-eps-converted-to.pdf
+INPUT threeM.png
+INPUT ./threeM.png
+INPUT ./threeM.png
 INPUT 2w.eps
 INPUT ./2w.eps
 INPUT ./2w.eps
@@ -185,9 +188,8 @@ INPUT ./2w.eps
 INPUT ./2w-eps-converted-to.pdf
 INPUT ./2w-eps-converted-to.pdf
 INPUT ./2w-eps-converted-to.pdf
-INPUT threeM.png
-INPUT ./threeM.png
-INPUT ./threeM.png
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 INPUT 2d.aux
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
